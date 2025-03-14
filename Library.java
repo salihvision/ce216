@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+
 public class Library {
+    
     Sorting sorter = new Sorting();
 
     private ArrayList<Game> userLibrary;

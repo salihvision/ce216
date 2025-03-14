@@ -1,4 +1,5 @@
 public class Game {
+
     private String gameName;
     private String studioName;
     private String publisherName;
@@ -6,6 +7,8 @@ public class Game {
     private float hoursPlayed;
     private String gameInfo;
     private int SteamID;
+    // TODO Cover pathi eklenmeli def path resim yok coverına çıkmalı
+    
     public Game(String gameName, String studioName, String publisherName, int releaseYear, float hoursPlayed, String gameInfo, int SteamID){
         this.gameInfo=gameInfo;
         this.gameName=gameName;
@@ -15,6 +18,7 @@ public class Game {
         this.studioName=studioName;
         this.SteamID=SteamID;
     }
+
     public float getHoursPlayed() {
         return hoursPlayed;
     }
